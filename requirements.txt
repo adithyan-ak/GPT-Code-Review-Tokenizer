@@ -1,0 +1,2 @@
+transformers==4.36.2
+gpt3-tokenizer==0.1.4

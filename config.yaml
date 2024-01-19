@@ -1,0 +1,10 @@
+repo_loader_config:
+  repo_path: "/path/to/code/repository"
+  ignore_file_path: ".gptignore" # Optional
+  output_file_name: "output.txt" 
+
+tokenizer_config:
+  input_file_name: "output.txt" # input_file_name must be same as the output_file_name
+  max_tokens: 3000
+  output_file_pattern: "chunk_{chunk_id}.txt"
+
