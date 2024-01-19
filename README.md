@@ -1,6 +1,6 @@
 # GPT Code Review Tokenizer
 
-This tool is designed for efficiently processing and tokenizing large code repositories. It consists of two main components: `load_repository.py` and `tokenizer.py`. The first component scans a specified repository, filters files based on ignore patterns, and outputs its contents into a single file. The second component then tokenizes this output into smaller, manageable chunks suitable to perform code reviews with GPTs.
+GPT Code Review Tokenizer is designed for efficiently processing and tokenizing large code repositories for performing Code Reviews through GPT. It consists of two main components: `load_repository.py` and `tokenizer.py`. The first component scans a specified repository, filters files based on ignore patterns, and outputs its contents into a single file. The second component then tokenizes this output into smaller, manageable chunks suitable to perform code reviews with GPTs.
 
 ## Features
 
@@ -12,8 +12,8 @@ This tool is designed for efficiently processing and tokenizing large code repos
 
 ## Installation
 
-1.  Clone the repository: `git clone [repository-url]`
-2.  Navigate to the project directory: `cd [project-directory]`
+1.  Clone the repository: `git clone https://github.com/adithyan-ak/GPT-Code-Review-Tokenizer.git`
+2.  Navigate to the project directory: `cd GPT-Code-Review-Tokenizer`
 3.  Ensure Python 3.x is installed.
 4.  Install required packages: `pip3 install -r requirements.txt`
 
@@ -27,7 +27,7 @@ This tool is designed for efficiently processing and tokenizing large code repos
 3.  Run `python3 tokenizer.py` to tokenize the processed output.
 
 ## Contributions
-We welcome contributions! If you have a feature to add or found a bug, please submit a pull request or open an issue.
+We welcome contributions! If you have a feature to add or find a bug, please submit a pull request or open an issue.
 
 The following are some of the features we are working on and would love help with:
 
